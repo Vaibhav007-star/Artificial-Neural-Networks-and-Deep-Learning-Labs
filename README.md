@@ -25,7 +25,7 @@ This monorepo consolidates all 7 practical laboratory assignments into an organi
 | **04** | [`Lab-04-Keras-MLP-Multiclass-Classification`](./Lab-04-Keras-MLP-Multiclass-Classification) | Multiclass Flower Classification | Keras, TensorFlow, Scikit-learn | Multi-Layer Perceptron (MLP), Softmax, Categorical Cross-Entropy |
 | **05** | [`Lab-05-CNN-Binary-Classification-CIFAR10`](./Lab-05-CNN-Binary-Classification-CIFAR10) | Binary Image Classification (Cats vs Dogs) | TensorFlow, Keras | CNN Architecture, Conv2D, MaxPooling2D, Flatten, Dense, Dropout |
 | **06** | [`Lab-06-Keras-MLP-Regression`](./Lab-06-Keras-MLP-Regression) | Deep MLP Regression Analysis | Keras, TensorFlow | Activation Functions (ReLU, Sigmoid, Tanh), Loss Analysis (MSE, MAE, Huber) |
-| **07** | [`Lab-07-Deep-Learning-Coursework`](./Lab-07-Deep-Learning-Coursework) | Extended Deep Learning Exercises | Python, PyTorch / Keras | Advanced Architectures, Optimization & Model Evaluation |
+| **07** | [`Lab-07-Keras-MLP-Multiclass-Classification`](./Lab-07-Keras-MLP-Multiclass-Classification) | Multiclass Wine Cultivar Classification | Keras, TensorFlow, Scikit-learn | Multi-Layer Perceptron (MLP), Softmax, Categorical Crossentropy, Activation/Optimizer Benchmarks |
 
 ---
 
@@ -63,8 +63,12 @@ Artificial-Neural-Networks-and-Deep-Learning-Labs/
 │   ├── Lab_6_Keras_MLP_Regression.ipynb               # Benchmark of activations & loss metrics
 │   └── README.md                                      # Regression diagnostics & convergence
 │
-└── Lab-07-Deep-Learning-Coursework/
-    └── README.md                                      # Additional coursework & experiments
+└── Lab-07-Keras-MLP-Multiclass-Classification/
+    ├── Lab_7_Keras_MLP_Multiclass_Classification.ipynb# Interactive Google Colab / Jupyter notebook
+    ├── keras_mlp_multiclass.py                         # Standalone Python training pipeline
+    ├── lab-7.py                                        # Execution entrypoint
+    ├── README.md                                       # Full academic report & 13 question analysis
+    └── plots/                                          # Generated confusion matrices & learning curves
 ```
 
 ---
